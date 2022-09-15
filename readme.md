@@ -49,4 +49,5 @@ void* handle_roi = LoadLibrary("mmcvmultilevelroialign.dll");
 * cmakelist is copy from tensorrtx yolov5, https://github.com/wang-xinyu/tensorrtx
 * cmakelist should add NOMINMAX to avoid some mistakes on windows 10.
 * static and shared library.
+* cuh is copy from mmdeploy third party dir.
 
