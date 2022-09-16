@@ -1,6 +1,6 @@
 # mmdeploy, only tensorrt env
 
-A windows tensorrt env uses mmdeploy trained models, traditional mask-rcnn as the example test.
+A windows tensorrt env uses mmdeploy trained models, normal mask-rcnn as the example test.
 
 ## Usage
 
@@ -28,7 +28,7 @@ $ polygraphy surgeon sanitize end2end.onnx --fold-constants -o end2end_folded.on
 
 ### mmdeploy tensorrt plugins
 
-Tradition mask-rcnn use "TRTBatchedNMS" and "MMCVMultiLevelRoiAlign". So I create these two plugins.
+Normal mask-rcnn model only uses "TRTBatchedNMS" and "MMCVMultiLevelRoiAlign". So I create these two plugins.
 
 ## tensorrt engine
 
