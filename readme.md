@@ -4,11 +4,11 @@ A windows tensorrt env uses mmdeploy trained models, traditional mask-rcnn as th
 
 ## Usage
 
-The following are the steps to deploy a mmdeploy mask-rcnn models. The most important feature of this project is that I copy out mmdeploy plugins and the codes are all tensorrt-based. The origin mmdeploy env is packaged too much. So hard to learn.
+The following are the steps to deploy a mmdeploy mask-rcnn models. The most important feature of this project is that I copy out mmdeploy plugins and the codes are all tensorrt-based. The origin mmdeploy env is packaged too much, So hard to learn.
 
 ### Prerequisites
 
-windows env, vs2019 and clion2022.2
+windows env, vs2019 and clion2022.2, cuda10.2 and cudnn8.4.1.50_cuda10.2
 
 * TensorRT-8.4.3.1
 * Opencv460
