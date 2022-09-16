@@ -50,4 +50,4 @@ void* handle_roi = LoadLibrary("mmcvmultilevelroialign.dll");
 * cmakelist should add NOMINMAX to avoid some mistakes on windows 10.
 * static and shared library.
 * cuh is copy from mmdeploy third party dir.
-
+* clion cmake compiler use "Visual Studio 16 2019"
